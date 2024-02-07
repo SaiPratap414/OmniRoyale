@@ -4,12 +4,12 @@ import styles from "./HomepageContainer.module.css";
 const HomepageContainer: FunctionComponent = () => {
   return (
     <div className={styles.backgroundVideo}>
-      <video autoPlay muted loop className={styles.video}>
-        <source src="/public/o.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
       <div className={styles.content}>
         <div className={styles.homepage}>
+          <video autoPlay muted loop className={styles.video}>
+            <source src="o.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           <div className={styles.homepage1}>
             <div className={styles.homepageInner}>
               <div className={styles.frameParent}>

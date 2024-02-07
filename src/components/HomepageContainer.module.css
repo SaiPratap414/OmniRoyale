@@ -4,6 +4,7 @@
   height: 100vh; /* Adjust height as needed */
   overflow: hidden;
 }
+
 .backgroundVideo video {
   position: absolute;
   top: 0;
@@ -13,14 +14,16 @@
   object-fit: cover; /* Ensure video covers entire container */
   z-index: -1; /* Ensure video is behind content */
 }
+
 .content {
   position: relative;
   z-index: 1;
 }
-/* Rest of your CSS styles remain unchanged */
+
 .enterTheOmniverse {
   margin: 0;
 }
+
 .enterTheOmniverseContainer {
   width: 865.8px;
   position: relative;
@@ -87,6 +90,7 @@
   font-size: var(--font-size-29xl);
   color: var(--color-lavender);
 }
+
 .frameParent {
   align-self: stretch;
   flex: 1;
@@ -102,6 +106,7 @@
   box-sizing: border-box;
   z-index: 0;
 }
+
 .homepage,
 .homepage1,
 .homepageInner {
