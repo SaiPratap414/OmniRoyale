@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+@font-face {
+  font-family: "Hubot-Sans";
+  src: url("/public/HubotSans-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Hubot-Sans";
+  src: url("/public/HubotSans-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Hubot-Sans";
+  src: url("/public/HubotSans-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Formula Condensed";
+  src: url("/public/FormulaCondensed-Bold.otf");
+  font-weight: 800;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-hubot-sans: Hubot-Sans;
+  --font-formula-condensed: "Formula Condensed";
+  --headings-typography-size-4: "DM Sans";
+  --text-regular-semi-bold: Roboto;
+
+  /* font sizes */
+  --text-small-link-size: 14px;
+  --font-size-29xl: 48px;
+  --font-size-41xl: 60px;
+  --headings-typography-size-4-size: 22px;
+  --font-size-13xl: 32px;
+  --text-regular-semi-bold-size: 16px;
+  --font-size-5xl: 24px;
+  --font-size-53xl: 72px;
+
+  /* Colors */
+  --color-dimgray: #6e6e6e;
+  --color-tomato: #fb5d2c;
+  --color-lavender: #dee0ff;
+  --color-darkgray: #9c9d9d;
+  --color-mediumslateblue: #8378f3;
+  --black: #000;
+  --color-white: #fff;
+  --color-plum: #c1bbff;
+  --color-gray: #fdfdfe;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-13xl: 32px;
+  --gap-5xl: 24px;
+  --gap-21xl: 40px;
+  --gap-41xl: 60px;
+  --gap-xs: 12px;
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-3xs: 10px;
+  --padding-61xl: 80px;
+  --padding-41xl: 60px;
+  --padding-5xl: 24px;
+  --padding-17xl: 36px;
+  --padding-101xl: 120px;
+  --padding-45xl: 64px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-5xs: 8px;
+}

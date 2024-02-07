@@ -1,0 +1,145 @@
+.tagline {
+  width: 53px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: none;
+}
+.howToPlay2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)), #e6e6e6;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content1 {
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-formula-condensed);
+}
+.content,
+.content1,
+.sectionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sectionTitle {
+  gap: var(--gap-base);
+}
+.content {
+  text-align: center;
+}
+.heading {
+  position: relative;
+  line-height: 100%;
+}
+.frameWrapper,
+.headingWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.headingWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--headings-typography-size-4-size);
+  line-height: 28px;
+  font-weight: 500;
+  font-family: var(--headings-typography-size-4);
+  color: var(--color-darkgray);
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 1264px;
+  gap: var(--gap-xs);
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-41xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-hubot-sans);
+}
+.heading4 {
+  position: relative;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.headingWrapper2 {
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-17xl);
+  background-image: url(/public/frame-340@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameWrapper3,
+.howToPlayInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.howToPlayInner {
+  align-self: stretch;
+  justify-content: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-lavender);
+  font-family: var(--font-formula-condensed);
+}
+.howToPlay1 {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-101xl) var(--padding-45xl);
+  gap: var(--gap-21xl);
+  background-image: url(/public/how-to-play@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.howToPlay,
+.howToPlay1,
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.howToPlay {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, transparent 67%, #000), #010101;
+  height: 4144px;
+  align-items: center;
+  text-align: left;
+  font-size: var(--text-regular-semi-bold-size);
+  color: var(--black);
+  font-family: var(--text-regular-semi-bold);
+}

@@ -1,0 +1,100 @@
+.vectorIcon {
+  width: 63.1px;
+  position: relative;
+  height: 60px;
+}
+.heading {
+  position: relative;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.vectorParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-regular-semi-bold-size);
+  line-height: 120%;
+  font-family: var(--font-hubot-sans);
+}
+.column,
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.column {
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-5xl);
+  background-image: url(/public/column@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.gameIconsswordClash {
+  width: 60px;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heading1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.column1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-5xl);
+  background-image: url(/public/column1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.battleAcrossMultiple {
+  margin: 0;
+}
+.column2,
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.column2 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  height: 320px;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-5xl);
+  box-sizing: border-box;
+  background-image: url(/public/column2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.row {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-formula-condensed);
+}

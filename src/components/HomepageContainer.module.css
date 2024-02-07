@@ -1,0 +1,125 @@
+.backgroundVideo {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  overflow: hidden;
+}
+.backgroundVideo video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure video covers entire container */
+  z-index: -1; /* Ensure video is behind content */
+}
+.content {
+  position: relative;
+  z-index: 1;
+}
+/* Rest of your CSS styles remain unchanged */
+.enterTheOmniverse {
+  margin: 0;
+}
+.enterTheOmniverseContainer {
+  width: 865.8px;
+  position: relative;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: inline-block;
+  background: linear-gradient(167.84deg, #ef592b 18.5%, transparent 60.5%), #b7bbf6;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.poweredByOmni {
+  position: relative;
+  font-size: var(--text-regular-semi-bold-size);
+  line-height: 150%;
+  text-transform: uppercase;
+  font-family: var(--font-hubot-sans);
+  text-align: left;
+}
+
+.enterTheOmniverseConquerThParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+
+.heading {
+  position: relative;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.headingWrapper {
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-17xl);
+  background-image: url(/public/frame-340@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.frameContainer {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.frameContainer,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.frameWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-lavender);
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-61xl);
+  gap: var(--gap-21xl);
+}
+
+.homepageInner {
+  align-items: flex-start;
+  padding: var(--padding-61xl) 0 0;
+  box-sizing: border-box;
+  z-index: 0;
+}
+.homepage,
+.homepage1,
+.homepageInner {
+  align-self: stretch;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.homepage1 {
+  align-items: center;
+}
+
+.homepage {
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-53xl);
+  color: var(--color-white);
+  font-family: var(--font-formula-condensed);
+}

@@ -1,0 +1,117 @@
+.group981,
+.link {
+  position: relative;
+}
+.group981 {
+  width: 167px;
+  height: 104px;
+  object-fit: cover;
+}
+.link {
+  line-height: 150%;
+  font-weight: 600;
+}
+.column,
+.column1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.column1 {
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.column {
+  flex-direction: column;
+}
+.columnWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mingcutetelegramFillIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mingcutetelegramFillParent {
+  gap: var(--gap-5xl);
+}
+.links,
+.mingcutetelegramFillParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container,
+.group981Parent,
+.navbar2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.group981Parent {
+  flex: 1;
+  justify-content: space-between;
+}
+.container,
+.navbar2 {
+  align-self: stretch;
+  overflow: hidden;
+  justify-content: center;
+}
+.navbar2 {
+  flex-direction: column;
+  padding: 0 var(--padding-45xl);
+}
+.divider {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1px;
+}
+.link4,
+.text {
+  position: relative;
+  line-height: 150%;
+}
+.link4 {
+  text-decoration: underline;
+}
+.credits,
+.navbar,
+.navbar1 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.credits {
+  width: 1312px;
+  display: none;
+  align-items: center;
+  gap: var(--gap-13xl);
+  font-size: var(--text-small-link-size);
+  color: var(--color-white);
+  font-family: var(--text-regular-semi-bold);
+}
+.navbar,
+.navbar1 {
+  align-self: stretch;
+  display: flex;
+}
+.navbar1 {
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-45xl);
+}
+.navbar {
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--text-regular-semi-bold-size);
+  color: var(--color-gray);
+  font-family: var(--font-hubot-sans);
+}
